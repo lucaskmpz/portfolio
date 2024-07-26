@@ -97,3 +97,24 @@ section {
   justify-content: center;
   margin-top: 3rem;
 }
+
+span {
+  color: var(--main-color);
+}
+
+.logo span {
+  color: var(--main-color);
+}
+
+.home-content h3 {
+  margin-bottom: 2rem;
+  margint-top: 1rem;
+  font-size: 3.5rem;
+}
+
+.home-content h1 {
+  font-size: 7rem;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  line-height: 1;
+}
