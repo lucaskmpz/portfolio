@@ -205,3 +205,28 @@ span {
   background-color: var(--main-color);
   color: black;
 }
+
+.text-animation {
+  font-size: 34px;
+  font-weight: 600;
+  min-width: 280px;
+}
+
+.typing {
+  border-right: 2px solid var(--main-color);
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--main-color);
+  }
+}
